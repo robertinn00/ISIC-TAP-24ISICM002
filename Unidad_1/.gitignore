@@ -2,3 +2,5 @@ build/
 *.class
 nbproject/private/
 
+/JavaApplication33/nbproject/private/
+/TAP001-3/nbproject/private/

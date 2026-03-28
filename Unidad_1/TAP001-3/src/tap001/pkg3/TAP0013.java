@@ -2,21 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package tap001;
+package tap001.pkg3;
 
 /**
  *
  * @author yahir
  */
-
 import javax.swing.*;
 import java.awt.*;
 import static java.lang.Boolean.TRUE;
 
-public class TAP001 extends JFrame{
-    public TAP001 (){
-        setTitle("Cambios_02");
-        setSize(600, 400);
+public class TAP0013 extends JFrame{
+    public TAP0013 (){
+        setTitle("Cambios_03");
+        setSize(300, 250);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
@@ -43,7 +42,7 @@ public class TAP001 extends JFrame{
 
 
     public static void main(String[] args) {
-        new TAP001();
+        new TAP0013();
     }
     
 }
