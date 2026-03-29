@@ -10,6 +10,7 @@ package tap001;
  */
 
 
+import java.awt.Color;
 import javax.swing.JFrame;
 
 public class TAP001 extends JFrame {
@@ -22,6 +23,8 @@ public class TAP001 extends JFrame {
         
         // 3. Indica que la aplicación debe cerrarse al presionar la 'X'
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+        
+        setBackground(Color.blue);
         
         // 4. Si el parámetro es 'null', la ventana aparece centrada en la pantalla
         setLocationRelativeTo(null); 
