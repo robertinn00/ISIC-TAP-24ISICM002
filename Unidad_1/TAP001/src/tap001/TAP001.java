@@ -9,41 +9,28 @@ package tap001;
  * @author yahir
  */
 
-import javax.swing.*;
-import java.awt.*;
-import static java.lang.Boolean.TRUE;
 
-public class TAP001 extends JFrame{
-    public TAP001 (){
-        setTitle("Cambios_02");
-        setSize(600, 400);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLocationRelativeTo(null);
-        setLayout(new BorderLayout());
-        
-        JPanel panelNorte = new JPanel();
-        panelNorte.setBackground(Color.red);
-        panelNorte.add(new JLabel("Cabecera"));
-        
-        JPanel panelCentro = new JPanel();
-        panelCentro.setBackground(Color.white);
-        panelCentro.add(new JLabel("Cuerpo"));
-        
-        JPanel panelSur = new JPanel();
-        panelSur.setBackground(Color.blue);
-        panelSur.add(new JLabel("Pie de pagina"));
-        
-        add(panelNorte, BorderLayout.NORTH);
-        add(panelCentro, BorderLayout.CENTER);
-        add(panelSur, BorderLayout.SOUTH);
-        setVisible(TRUE);
+import javax.swing.JFrame;
 
-}
-    
-
+public class TAP001 extends JFrame {
+    public TAP001() {
+        // 1. Define el texto que aparece en la barra superior
+        setTitle("Mi Primera Ventana - TAP"); 
+        
+        // 2. Define el ancho y alto inicial en píxeles
+        setSize(500, 500); 
+        
+        // 3. Indica que la aplicación debe cerrarse al presionar la 'X'
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+        
+        // 4. Si el parámetro es 'null', la ventana aparece centrada en la pantalla
+        setLocationRelativeTo(null); 
+        
+        // 5. Por defecto las ventanas nacen invisibles. Este paso es obligatorio.
+        setVisible(true); 
+    }
 
     public static void main(String[] args) {
         new TAP001();
     }
-    
 }
