@@ -15,10 +15,10 @@ import javax.swing.JFrame;
 public class TAP001 extends JFrame {
     public TAP001() {
         // 1. Define el texto que aparece en la barra superior
-        setTitle("Mi Primera Ventana - TAP"); 
+        setTitle("Actividad 2"); 
         
         // 2. Define el ancho y alto inicial en píxeles
-        setSize(500, 500); 
+        setSize(800, 600); 
         
         // 3. Indica que la aplicación debe cerrarse al presionar la 'X'
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
