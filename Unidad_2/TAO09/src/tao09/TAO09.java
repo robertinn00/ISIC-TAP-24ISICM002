@@ -48,9 +48,9 @@ public class TAO09 extends JFrame {
                 txtTarea.requestFocus();
                 setTitle("Lista de Tareas (" + modelo.size() + " tareas)");
 
-    }
-});
-        
+            }
+        });
+         
         txtTarea.addActionListener(e -> {
             String nuevaTarea = txtTarea.getText().trim();
             if(!nuevaTarea.isEmpty()) {
